@@ -20,14 +20,17 @@ export interface Resource {
 }
 
 export interface Agency {
-  id: string;
+  id?: string;
   name: string;
-  address?: string;
-  phone?: string;
-  website?: string;
-  days_open?: string[];
-  hours?: Record<string, string>;
-  appointment_needed?: string;
+  address: string;
+  phone: string;
+  hours: string;
+  appointment_needed: string;
+  requirements: string;
+  distribution_model: string;
+  notes: string;
+  cultures_served: string[];
+  distance?: number;
 }
 
 export interface Service {

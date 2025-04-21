@@ -1,133 +1,201 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, MapPin } from 'lucide-react';
-import ResourceCard from '../components/ResourceCard';
-import { Resource } from '../types';
+import { Search, Filter, MapPin, Navigation } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
+import AgencyCard from '../components/AgencyCard';
+import { Agency } from '../types';
 import { useAuth } from '../context/AuthContext';
-
-// Mock resources data
-const mockResources: Resource[] = [
-  {
-    id: '1',
-    name: 'Community Food Bank',
-    description: 'Providing groceries and essential items to individuals and families in need. No documentation required.',
-    address: '123 Main St, Anytown, USA',
-    phone: '(555) 123-4567',
-    website: 'https://example.com/food-bank',
-    hours: 'Mon-Fri: 9am-5pm, Sat: 10am-2pm',
-    type: 'food-bank',
-    requirements: 'No ID required. Available to all residents.',
-    image: 'https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: '2',
-    name: 'Hope Kitchen',
-    description: 'Serving hot meals daily to anyone in need. Come as you are, no questions asked.',
-    address: '456 Oak St, Anytown, USA',
-    phone: '(555) 987-6543',
-    hours: 'Daily: 11am-1pm, 5pm-7pm',
-    type: 'soup-kitchen',
-    image: 'https://images.pexels.com/photos/5538583/pexels-photo-5538583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: '3',
-    name: 'Fresh Market Food Pantry',
-    description: 'Offering fresh produce, dairy, and other groceries to community members in need.',
-    address: '789 Elm St, Anytown, USA',
-    phone: '(555) 456-7890',
-    website: 'https://example.com/fresh-market',
-    hours: 'Tue, Thu: 1pm-6pm, Sat: 9am-12pm',
-    type: 'food-bank',
-    requirements: 'Please bring ID and proof of address if possible.',
-    image: 'https://images.pexels.com/photos/5409669/pexels-photo-5409669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: '4',
-    name: 'Senior Meals Program',
-    description: 'Nutritious meal delivery for seniors aged 65+ who have difficulty shopping or cooking.',
-    address: '101 Pine St, Anytown, USA',
-    phone: '(555) 234-5678',
-    website: 'https://example.com/senior-meals',
-    type: 'meal-program',
-    requirements: 'Age 65+ or disabled. Registration required.',
-    image: 'https://images.pexels.com/photos/6994965/pexels-photo-6994965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: '5',
-    name: 'Neighborhood Pantry',
-    description: 'Community-run pantry providing emergency food assistance.',
-    address: '202 Maple St, Anytown, USA',
-    hours: 'Mon, Wed, Fri: 3pm-7pm',
-    type: 'food-bank',
-    image: 'https://images.pexels.com/photos/6590920/pexels-photo-6590920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: '6',
-    name: 'Family Support Center',
-    description: 'Comprehensive support including food assistance, case management, and referrals.',
-    address: '303 Cedar St, Anytown, USA',
-    phone: '(555) 345-6789',
-    website: 'https://example.com/family-support',
-    hours: 'Mon-Fri: 8am-6pm',
-    type: 'grocery-assistance',
-    requirements: 'Households with children under 18.',
-    image: 'https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  }
-];
+import { calculateDistance, extractZipCode, batchGetDistances } from '../utils/distanceUtils';
 
 const ResourcesPage: React.FC = () => {
+  const location = useLocation();
   const [searchTerm, setSearchTerm] = useState('');
-  const [filterType, setFilterType] = useState<string>('');
-  const [resources, setResources] = useState<Resource[]>(mockResources);
-  const [filteredResources, setFilteredResources] = useState<Resource[]>(mockResources);
+  const [zipCode, setZipCode] = useState('');
+  const [agencies, setAgencies] = useState<Agency[]>([]);
+  const [filteredAgencies, setFilteredAgencies] = useState<Agency[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [locationLoading, setLocationLoading] = useState(false);
+  const [userCoords, setUserCoords] = useState<{lat: number, lng: number} | null>(null);
+  const [locationError, setLocationError] = useState<string | null>(null);
   const { user } = useAuth();
   
   // Update document title
-  React.useEffect(() => {
+  useEffect(() => {
     document.title = 'Find Food Resources | FoodConnect';
   }, []);
 
-  // Filter resources based on search term and filter type
+  // Load agency data and check for ZIP code in URL
   useEffect(() => {
-    let filtered = resources;
+    const fetchAgencyData = async () => {
+      try {
+        const response = await fetch('/src/data/agencies.json');
+        const data = await response.json();
+        
+        // Generate IDs for agencies if they don't have them
+        const agenciesWithIds = data.agencies.map((agency: Agency, index: number) => ({
+          ...agency,
+          id: agency.id || `agency-${index}`, 
+        }));
+        
+        setAgencies(agenciesWithIds);
+        setFilteredAgencies(agenciesWithIds);
+        
+        // Check if there's a ZIP code in the URL
+        const params = new URLSearchParams(location.search);
+        const zipFromUrl = params.get('zipCode');
+        
+        if (zipFromUrl) {
+          setZipCode(zipFromUrl);
+          // Calculate distances based on the ZIP code from URL
+          calculateDistancesFromZipCode(zipFromUrl, agenciesWithIds);
+        }
+        
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading agency data:', error);
+        setLoading(false);
+      }
+    };
+    
+    fetchAgencyData();
+  }, [location.search]);
+
+  // Filter agencies based on search term
+  useEffect(() => {
+    if (!agencies.length) return;
+    
+    let filtered = agencies;
     
     if (searchTerm) {
+      const term = searchTerm.toLowerCase();
       filtered = filtered.filter(
-        resource => 
-          resource.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          resource.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          resource.address.toLowerCase().includes(searchTerm.toLowerCase())
+        agency => 
+          agency.name.toLowerCase().includes(term) ||
+          agency.address.toLowerCase().includes(term) ||
+          agency.requirements.toLowerCase().includes(term) ||
+          agency.distribution_model.toLowerCase().includes(term) ||
+          agency.notes.toLowerCase().includes(term) ||
+          agency.cultures_served.some(culture => culture.toLowerCase().includes(term))
       );
     }
     
-    if (filterType) {
-      filtered = filtered.filter(resource => resource.type === filterType);
+    setFilteredAgencies(filtered);
+  }, [searchTerm, agencies]);
+
+  // Get user's current location
+  const getUserLocation = () => {
+    if (!navigator.geolocation) {
+      setLocationError("Geolocation is not supported by your browser");
+      return;
     }
     
-    setFilteredResources(filtered);
-  }, [searchTerm, filterType, resources]);
+    setLocationLoading(true);
+    setLocationError(null);
+    
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        setUserCoords({ lat: latitude, lng: longitude });
+        
+        // Use coordinates for calculating distances
+        calculateDistancesFromCoordinates(latitude, longitude);
+        setLocationLoading(false);
+      },
+      (error) => {
+        setLocationError(`Error getting location: ${error.message}`);
+        setLocationLoading(false);
+        console.error("Error getting user location:", error);
+      },
+      { 
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
+      }
+    );
+  };
 
-  // Mock function to save a resource to user's saved resources
-  const handleSaveResource = (id: string) => {
-    if (!user) return;
+  // Calculate distances using Google Distance Matrix API based on ZIP code
+  const calculateDistancesFromZipCode = async (zip: string, agencyList = agencies) => {
+    if (!zip || !agencyList.length) return;
     
-    // Update user's saved resources
-    const savedResources = user.savedResources || [];
-    const isAlreadySaved = savedResources.includes(id);
+    setLocationLoading(true);
+    setLocationError(null);
     
-    const updatedSavedResources = isAlreadySaved
-      ? savedResources.filter(resourceId => resourceId !== id)
-      : [...savedResources, id];
+    try {
+      // Prepare the list of agency addresses
+      const agencyAddresses = agencyList.map(agency => agency.address).filter(Boolean);
+      
+      // Batch request distances from Google API
+      const distanceResults = await batchGetDistances(zip, agencyAddresses);
+      
+      // Update agencies with calculated distances
+      const agenciesWithDistances = agencyList.map(agency => {
+        if (agency.address && distanceResults[agency.address] !== undefined) {
+          return {
+            ...agency,
+            distance: distanceResults[agency.address]
+          };
+        }
+        return agency;
+      });
+      
+      // Sort agencies by distance
+      const sortedAgencies = agenciesWithDistances.sort((a, b) => {
+        if (a.distance === undefined) return 1;
+        if (b.distance === undefined) return -1;
+        return a.distance - b.distance;
+      });
+      
+      setAgencies(sortedAgencies);
+      setFilteredAgencies(sortedAgencies.filter(agency => 
+        searchTerm ? 
+          agency.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          agency.address.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          agency.requirements.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          agency.distribution_model.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          agency.notes.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          agency.cultures_served.some(culture => culture.toLowerCase().includes(searchTerm.toLowerCase()))
+        : true
+      ));
+      
+      setLocationLoading(false);
+    } catch (error) {
+      console.error('Error calculating distances from ZIP code:', error);
+      setLocationError('Error calculating distances. Please try again.');
+      setLocationLoading(false);
+    }
+  };
+  
+  // Calculate distances using Google Distance Matrix API based on coordinates
+  const calculateDistancesFromCoordinates = async (lat: number, lng: number) => {
+    if (!agencies.length) return;
     
-    // In a real app, this would update the user in the database
-    // For now, we'll just update the local storage
-    const updatedUser = {
-      ...user,
-      savedResources: updatedSavedResources
-    };
+    setLocationLoading(true);
     
-    localStorage.setItem('user', JSON.stringify(updatedUser));
+    try {
+      // Convert coordinates to string format for the API
+      const coordsString = `${lat},${lng}`;
+      
+      // Use the same function as ZIP code but with coordinate string
+      await calculateDistancesFromZipCode(coordsString);
+      
+      setLocationLoading(false);
+    } catch (error) {
+      console.error('Error calculating distances from coordinates:', error);
+      setLocationError('Error calculating distances. Please try again.');
+      setLocationLoading(false);
+    }
+  };
+
+  // Handle ZIP code search
+  const handleZipCodeSearch = async () => {
+    if (!zipCode) return;
     
-    // You might want to show a toast or notification here
+    try {
+      await calculateDistancesFromZipCode(zipCode);
+    } catch (error) {
+      console.error('Error during search:', error);
+      setLocationError('Error calculating distances. Please try again.');
+    }
   };
 
   return (
@@ -139,7 +207,7 @@ const ResourcesPage: React.FC = () => {
               Find Food Resources Near You
             </h1>
             <p className="mt-3 text-xl text-green-100">
-              Locate food banks, meal programs, and other assistance in your area.
+              Locate food banks, pantries, and other assistance in your area.
             </p>
           </div>
           
@@ -152,48 +220,45 @@ const ResourcesPage: React.FC = () => {
                   </div>
                   <input
                     type="text"
-                    placeholder="Enter your zip code or address"
+                    placeholder="Enter your zip code"
+                    value={zipCode}
+                    onChange={(e) => setZipCode(e.target.value)}
                     className="block w-full pl-10 py-3 border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"
                   />
                 </div>
-                <button className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                <button 
+                  className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                  onClick={handleZipCodeSearch}
+                  disabled={locationLoading}
+                >
                   <Search className="h-5 w-5 mr-2" />
                   Search
                 </button>
-              </div>
-              
-              <div className="mt-4 flex flex-wrap gap-2">
                 <button 
-                  onClick={() => setFilterType('')}
-                  className={`px-4 py-2 rounded-full text-sm font-medium ${filterType === '' ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
+                  className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  onClick={getUserLocation}
+                  disabled={locationLoading}
                 >
-                  All
-                </button>
-                <button 
-                  onClick={() => setFilterType('food-bank')}
-                  className={`px-4 py-2 rounded-full text-sm font-medium ${filterType === 'food-bank' ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-                >
-                  Food Banks
-                </button>
-                <button 
-                  onClick={() => setFilterType('soup-kitchen')}
-                  className={`px-4 py-2 rounded-full text-sm font-medium ${filterType === 'soup-kitchen' ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-                >
-                  Soup Kitchens
-                </button>
-                <button 
-                  onClick={() => setFilterType('meal-program')}
-                  className={`px-4 py-2 rounded-full text-sm font-medium ${filterType === 'meal-program' ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-                >
-                  Meal Programs
-                </button>
-                <button 
-                  onClick={() => setFilterType('grocery-assistance')}
-                  className={`px-4 py-2 rounded-full text-sm font-medium ${filterType === 'grocery-assistance' ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-                >
-                  Grocery Assistance
+                  <Navigation className="h-5 w-5 mr-2" />
+                  Use My Location
                 </button>
               </div>
+              {locationLoading && (
+                <div className="mt-2 text-center text-sm text-gray-600">
+                  <span className="inline-block animate-spin mr-2">⟳</span>
+                  Calculating distances...
+                </div>
+              )}
+              {locationError && (
+                <div className="mt-2 text-center text-sm text-red-600">
+                  {locationError}
+                </div>
+              )}
+              {userCoords && (
+                <div className="mt-2 text-center text-sm text-green-600">
+                  Using your current location
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -202,7 +267,7 @@ const ResourcesPage: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900">
-            Resources {filterType && `(${filterType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')})`}
+            Food Resources {userCoords ? 'near your location' : zipCode ? `near ${zipCode}` : ''}
           </h2>
           
           <div className="relative">
@@ -219,13 +284,19 @@ const ResourcesPage: React.FC = () => {
           </div>
         </div>
         
-        {filteredResources.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredResources.map(resource => (
-              <ResourceCard 
-                key={resource.id} 
-                resource={resource}
-                onSave={handleSaveResource}
+        {loading ? (
+          <div className="text-center py-12">
+            <div className="spinner-border text-green-500" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </div>
+            <p className="mt-4 text-gray-500">Loading resources...</p>
+          </div>
+        ) : filteredAgencies.length > 0 ? (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {filteredAgencies.map(agency => (
+              <AgencyCard 
+                key={agency.id} 
+                agency={agency}
               />
             ))}
           </div>
@@ -235,7 +306,7 @@ const ResourcesPage: React.FC = () => {
               <Filter className="h-12 w-12 mx-auto text-gray-400" />
             </div>
             <h3 className="text-xl font-medium text-gray-900 mb-2">No resources found</h3>
-            <p className="text-gray-500">Try adjusting your search or filters to find resources in your area.</p>
+            <p className="text-gray-500">Try adjusting your search or try a different location.</p>
           </div>
         )}
       </div>
