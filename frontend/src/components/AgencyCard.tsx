@@ -8,8 +8,8 @@ interface AgencyCardProps {
 
 const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg">
-      <div className="p-5">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg flex flex-col h-full">
+      <div className="p-5 flex-grow flex flex-col">
         <div className="flex justify-between items-start">
           <h3 className="text-xl font-bold text-gray-900 mb-2">{agency.name}</h3>
           {agency.distance !== undefined && (
@@ -95,7 +95,7 @@ const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
           </div>
         )}
         
-        <div className="mt-5">
+        <div className="mt-4 mt-auto">
           <a 
             href={`https://maps.google.com/?q=${encodeURIComponent(agency.address)}`}
             target="_blank"

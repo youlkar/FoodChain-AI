@@ -8,9 +8,12 @@ const HeroSection: React.FC = () => {
   
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
+    // Navigate to resources page with the ZIP code as a query parameter if provided
+    // Otherwise, just navigate to the resources page without a query parameter
     if (zipCode) {
-      // Navigate to resources page with the ZIP code as a query parameter
       navigate(`/resources?zipCode=${zipCode}`);
+    } else {
+      navigate('/resources');
     }
   };
   

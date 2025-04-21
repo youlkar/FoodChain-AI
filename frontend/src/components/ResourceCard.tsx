@@ -25,7 +25,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({ resource, onSave }) => {
           <span className="text-green-800 font-semibold text-lg">Food Resource</span>
         </div>
       )}
-      <div className="p-5">
+      <div className="p-5 flex flex-col h-full">
         <div className="flex justify-between items-start">
           <h3 className="text-xl font-bold text-gray-900 mb-2">{resource.name}</h3>
           {user && (
@@ -82,7 +82,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({ resource, onSave }) => {
           )}
         </div>
         
-        <div className="mt-5">
+        <div className="mt-4 mt-auto">
           <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-3 rounded font-medium transition-colors">
             Get Directions
           </button>

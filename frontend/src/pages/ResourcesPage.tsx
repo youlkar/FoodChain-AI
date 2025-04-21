@@ -113,37 +113,39 @@ const ResourcesPage: React.FC = () => {
     );
   };
 
-  // Calculate distances using Google Distance Matrix API based on ZIP code
-  const calculateDistancesFromZipCode = async (zip: string, agencyList = agencies) => {
-    if (!zip || !agencyList.length) return;
+  // Calculate distances using Google Distance Matrix API based on coordinates
+  const calculateDistancesFromCoordinates = async (lat: number, lng: number) => {
+    if (!agencies.length) return;
     
     setLocationLoading(true);
     setLocationError(null);
     
     try {
-      // Prepare the list of agency addresses
+      const coordsString = `${lat},${lng}`;
+      // Use a dedicated function for coordinate-based distance calculation
+      await calculateDistancesFromOrigin(coordsString);
+    } catch (error) {
+      console.error('Error calculating distances:', error);
+      setLocationError('Error calculating distances. Please try again.');
+    } finally {
+      setLocationLoading(false);
+    }
+  };
+
+  // Calculate distances from any origin (coordinates or ZIP)
+  const calculateDistancesFromOrigin = async (origin: string, agencyList = agencies) => {
+    try {
       const agencyAddresses = agencyList.map(agency => agency.address).filter(Boolean);
-      
-      // Batch request distances from Google API
-      const distanceResults = await batchGetDistances(zip, agencyAddresses);
-      
-      // Update agencies with calculated distances
-      const agenciesWithDistances = agencyList.map(agency => {
-        if (agency.address && distanceResults[agency.address] !== undefined) {
-          return {
-            ...agency,
-            distance: distanceResults[agency.address]
-          };
-        }
-        return agency;
-      });
-      
-      // Sort agencies by distance
-      const sortedAgencies = agenciesWithDistances.sort((a, b) => {
-        if (a.distance === undefined) return 1;
-        if (b.distance === undefined) return -1;
-        return a.distance - b.distance;
-      });
+      const distanceResults = await batchGetDistances(origin, agencyAddresses);
+
+      const agenciesWithDistances = agencyList.map(agency => ({
+        ...agency,
+        distance: agency.address && distanceResults[agency.address] !== undefined ? 
+          distanceResults[agency.address] : 
+          Infinity // Handle missing distances
+      }));
+
+      const sortedAgencies = agenciesWithDistances.sort((a, b) => a.distance - b.distance);
       
       setAgencies(sortedAgencies);
       setFilteredAgencies(sortedAgencies.filter(agency => 
@@ -156,33 +158,8 @@ const ResourcesPage: React.FC = () => {
           agency.cultures_served.some(culture => culture.toLowerCase().includes(searchTerm.toLowerCase()))
         : true
       ));
-      
-      setLocationLoading(false);
     } catch (error) {
-      console.error('Error calculating distances from ZIP code:', error);
-      setLocationError('Error calculating distances. Please try again.');
-      setLocationLoading(false);
-    }
-  };
-  
-  // Calculate distances using Google Distance Matrix API based on coordinates
-  const calculateDistancesFromCoordinates = async (lat: number, lng: number) => {
-    if (!agencies.length) return;
-    
-    setLocationLoading(true);
-    
-    try {
-      // Convert coordinates to string format for the API
-      const coordsString = `${lat},${lng}`;
-      
-      // Use the same function as ZIP code but with coordinate string
-      await calculateDistancesFromZipCode(coordsString);
-      
-      setLocationLoading(false);
-    } catch (error) {
-      console.error('Error calculating distances from coordinates:', error);
-      setLocationError('Error calculating distances. Please try again.');
-      setLocationLoading(false);
+      throw error;
     }
   };
 
@@ -190,11 +167,38 @@ const ResourcesPage: React.FC = () => {
   const handleZipCodeSearch = async () => {
     if (!zipCode) return;
     
+    setLocationLoading(true);
+    setLocationError(null);
+
     try {
-      await calculateDistancesFromZipCode(zipCode);
+      const extractedZip = extractZipCode(zipCode);
+      if (!extractedZip) {
+        setLocationError('Invalid ZIP code format');
+        return;
+      }
+      await calculateDistancesFromOrigin(extractedZip);
     } catch (error) {
-      console.error('Error during search:', error);
+      console.error('Search error:', error);
+      setLocationError('Error calculating distances');
+    } finally {
+      setLocationLoading(false);
+    }
+  };
+
+  // Replace the calculateDistancesFromZipCode function with a call to the new function
+  const calculateDistancesFromZipCode = async (zip: string, agencyList = agencies) => {
+    if (!zip || !agencyList.length) return;
+    
+    setLocationLoading(true);
+    setLocationError(null);
+    
+    try {
+      await calculateDistancesFromOrigin(zip, agencyList);
+    } catch (error) {
+      console.error('Error calculating distances from ZIP code:', error);
       setLocationError('Error calculating distances. Please try again.');
+    } finally {
+      setLocationLoading(false);
     }
   };
 
