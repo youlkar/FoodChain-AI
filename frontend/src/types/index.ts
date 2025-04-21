@@ -19,6 +19,23 @@ export interface Resource {
   image?: string;
 }
 
+export interface Agency {
+  id: string;
+  name: string;
+  address?: string;
+  phone?: string;
+  website?: string;
+  days_open?: string[];
+  hours?: Record<string, string>;
+  appointment_needed?: string;
+}
+
+export interface Service {
+  id: string;
+  name: string;
+  agencies: Agency[];
+}
+
 export interface FoodProgram {
   id: string;
   title: string;

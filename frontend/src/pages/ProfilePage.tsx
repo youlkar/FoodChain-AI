@@ -44,13 +44,6 @@ const ProfilePage: React.FC = () => {
     document.title = 'Your Profile | FoodConnect';
   }, []);
   
-  // Redirect if not logged in
-  useEffect(() => {
-    if (!user) {
-      navigate('/login');
-    }
-  }, [user, navigate]);
-  
   // Get saved resources
   useEffect(() => {
     if (user?.savedResources) {
@@ -84,8 +77,17 @@ const ProfilePage: React.FC = () => {
     setSavedResources(savedResources.filter(resource => resource.id !== id));
   };
   
+  const handleLogout = async () => {
+    try {
+      await logout();
+      navigate('/login');
+    } catch (error) {
+      console.error('Failed to log out', error);
+    }
+  };
+  
   if (!user) {
-    return null; // Will redirect in useEffect
+    return <div className="flex justify-center items-center h-screen">Loading...</div>;
   }
 
   return (
@@ -118,7 +120,7 @@ const ProfilePage: React.FC = () => {
                     Account Settings
                   </button>
                   <button 
-                    onClick={logout}
+                    onClick={handleLogout}
                     className="inline-flex items-center px-3 py-1.5 border border-white text-sm font-medium rounded-full text-white hover:bg-green-800"
                   >
                     <LogOut className="h-4 w-4 mr-1" />

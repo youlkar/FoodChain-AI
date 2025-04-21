@@ -1,11 +1,25 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Apple, LogIn } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, login, logout } = useAuth();
+  const { user, googleSignIn, logout } = useAuth();
+  const navigate = useNavigate();
+
+  const handleSignIn = () => {
+    navigate('/login');
+  };
+
+  const handleLogout = async () => {
+    try {
+      await logout();
+      navigate('/login');
+    } catch (error) {
+      console.error('Failed to logout', error);
+    }
+  };
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -28,6 +42,12 @@ const Navbar: React.FC = () => {
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
                 Find Food
+              </Link>
+              <Link 
+                to="/services" 
+                className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
+              >
+                Services
               </Link>
               <Link 
                 to="/about" 
@@ -63,7 +83,7 @@ const Navbar: React.FC = () => {
                   </span>
                 </Link>
                 <button
-                  onClick={logout}
+                  onClick={handleLogout}
                   className="text-sm font-medium text-gray-700 hover:text-green-600"
                 >
                   Logout
@@ -71,7 +91,7 @@ const Navbar: React.FC = () => {
               </div>
             ) : (
               <button
-                onClick={login}
+                onClick={handleSignIn}
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
               >
                 <LogIn className="mr-2 h-4 w-4" />
@@ -113,6 +133,13 @@ const Navbar: React.FC = () => {
               Find Food
             </Link>
             <Link
+              to="/services"
+              className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
+              onClick={() => setIsOpen(false)}
+            >
+              Services
+            </Link>
+            <Link
               to="/about"
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
@@ -137,7 +164,7 @@ const Navbar: React.FC = () => {
                 </Link>
                 <button
                   onClick={() => {
-                    logout();
+                    handleLogout();
                     setIsOpen(false);
                   }}
                   className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
@@ -148,7 +175,7 @@ const Navbar: React.FC = () => {
             ) : (
               <button
                 onClick={() => {
-                  login();
+                  handleSignIn();
                   setIsOpen(false);
                 }}
                 className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"

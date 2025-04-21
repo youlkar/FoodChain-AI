@@ -1,0 +1,620 @@
+{
+  "sample": {
+    "non-food-items": [
+      {
+        "id": "15015-MOMK-01",
+        "name": "MSB Community Outreach",
+        "address": "MSB Community Outreach House 2411 Lawrence St NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Tuesday"
+        ],
+        "hours": {
+          "tuesday": "09:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "15566-MOMK-01",
+        "name": "Georgetown South Community Council",
+        "address": "Georgetown South 9444 Taney Rd Manassas VA 20110",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:30:00 - 16:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "financial-advising": [
+      {
+        "id": "15566-MOMK-01",
+        "name": "Georgetown South Community Council",
+        "address": "Georgetown South 9444 Taney Rd Manassas VA 20110",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:30:00 - 16:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "esl": [
+      {
+        "id": "15566-MOMK-01",
+        "name": "Georgetown South Community Council",
+        "address": "Georgetown South 9444 Taney Rd Manassas VA 20110",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:30:00 - 16:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "financial-assistance": [
+      {
+        "id": "15566-MOMK-01",
+        "name": "Georgetown South Community Council",
+        "address": "Georgetown South 9444 Taney Rd Manassas VA 20110",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:30:00 - 16:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "behavioral-healthcare": [
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "job-training": [
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "older-adults": [
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "15650-PUSH-01",
+        "name": "Calvary Assembly of Holy Cross",
+        "address": "Calvary Assembly Calvary Assemby 3505 Hubbard Rd LANDOVER MD 20785",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "09:30:00 - 11:30:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "case-management": [
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "govt-benefits-info": [
+      {
+        "id": "15567-MOMK-01",
+        "name": "Academy of Hope",
+        "address": "Academy of Hope 2315 18th Pl NE Washington DC 20018",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "12:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16840-MOMK-01",
+        "name": "Woodrow Wilson Library",
+        "address": "Legal Aid Justice Center, Culmore Woodrow Wilson Library 6101 Knollwood Dr Falls Church VA 22041",
+        "phone": "",
+        "days_open": [
+          "Tuesday"
+        ],
+        "hours": {
+          "tuesday": "11:00:00 - 13:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "childcare": [
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18385-MOMK-01",
+        "name": "Woodland Springs Apartment",
+        "address": "Woodland Springs Apartment 6617 Atwood Street District Heights MD 20747",
+        "phone": "",
+        "days_open": [
+          "Tuesday"
+        ],
+        "hours": {
+          "tuesday": "09:30:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "19261-PUSH-01",
+        "name": "St. Anthony of Padua Catholic Church",
+        "address": "St. Anthony of Padua Roman Catholic Church 3305 Glen Carlyn Rd Falls Church VA 22041",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "10:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "govt-benefits-enrollment": [
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16840-MOMK-01",
+        "name": "Woodrow Wilson Library",
+        "address": "Legal Aid Justice Center, Culmore Woodrow Wilson Library 6101 Knollwood Dr Falls Church VA 22041",
+        "phone": "",
+        "days_open": [
+          "Tuesday"
+        ],
+        "hours": {
+          "tuesday": "11:00:00 - 13:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "17722-MOMK-01",
+        "name": "First Agape Baptist Church",
+        "address": "Leonard Armstrong Rec Center First Agape Baptist Church 25 W Reed Ave Alexandria VA 22305",
+        "phone": "",
+        "days_open": [
+          "Friday"
+        ],
+        "hours": {
+          "friday": "11:00:00 - 13:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "healthcare": [
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18280-MOMK-02",
+        "name": "CMPGC - Seat Pleasant",
+        "address": "Community Ministry of PG County (Seat Plesant) 5356 Sheriff Road Capitol Heights  MD 20743",
+        "phone": "",
+        "days_open": [
+          "Friday"
+        ],
+        "hours": {
+          "friday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "housing": [
+      {
+        "id": "16185-PUSH-01",
+        "name": "City of Greenbelt Food Pantry",
+        "address": "City of Greenbelt Food Pantry 15 Crescent Rd Greenbelt MD 20770",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "13:00:00 - 15:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "16885-MOMK-01",
+        "name": "Silver Spring UMC",
+        "address": "Silver Spring UMC 8900 Georgia Ave Silver Spring MD 20901",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "11:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ],
+    "legal-services": [
+      {
+        "id": "16840-MOMK-01",
+        "name": "Woodrow Wilson Library",
+        "address": "Legal Aid Justice Center, Culmore Woodrow Wilson Library 6101 Knollwood Dr Falls Church VA 22041",
+        "phone": "",
+        "days_open": [
+          "Tuesday"
+        ],
+        "hours": {
+          "tuesday": "11:00:00 - 13:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "18155-MOMK-01",
+        "name": "Fairmont Gardens Apartments",
+        "address": "Legal Aid Justice Center, Annandale Fairmont Gardens Apartments 4100 Wadsworth Ct Annandale VA 22003",
+        "phone": "",
+        "days_open": [
+          "Thursday"
+        ],
+        "hours": {
+          "thursday": "09:00:00 - 11:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      },
+      {
+        "id": "19261-PUSH-01",
+        "name": "St. Anthony of Padua Catholic Church",
+        "address": "St. Anthony of Padua Roman Catholic Church 3305 Glen Carlyn Rd Falls Church VA 22041",
+        "phone": "",
+        "days_open": [
+          "Wednesday"
+        ],
+        "hours": {
+          "wednesday": "10:00:00 - 14:00:00"
+        },
+        "appointment_needed": "Unknown",
+        "website": ""
+      }
+    ]
+  }
+}

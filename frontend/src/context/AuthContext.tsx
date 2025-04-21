@@ -1,17 +1,29 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { 
+  GoogleAuthProvider, 
+  signInWithPopup, 
+  signOut, 
+  onAuthStateChanged,
+  UserCredential 
+} from 'firebase/auth';
+import { auth } from '../firebase';
 import { User } from '../types';
 
 interface AuthContextType {
   user: User | null;
-  login: () => void;
-  logout: () => void;
+  googleSignIn: () => Promise<UserCredential>;
+  logout: () => Promise<void>;
   loading: boolean;
 }
 
 const AuthContext = createContext<AuthContextType>({
   user: null,
-  login: () => {},
-  logout: () => {},
+  googleSignIn: async () => {
+    throw new Error('Not implemented');
+  },
+  logout: async () => {
+    throw new Error('Not implemented');
+  },
   loading: true
 });
 
@@ -21,37 +33,42 @@ export const AuthProvider: React.FC<{children: React.ReactNode}> = ({ children }
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // Check if user is already logged in
-  useEffect(() => {
-    const storedUser = localStorage.getItem('user');
-    if (storedUser) {
-      setUser(JSON.parse(storedUser));
-    }
-    setLoading(false);
-  }, []);
-
-  // Mock Google login
-  const login = () => {
-    // In a real app, this would be replaced with actual Google authentication
-    const mockUser: User = {
-      id: '123456',
-      name: 'Demo User',
-      email: 'user@example.com',
-      photoURL: 'https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg?auto=compress&cs=tinysrgb&w=32&h=32&dpr=1',
-      savedResources: []
-    };
-    
-    setUser(mockUser);
-    localStorage.setItem('user', JSON.stringify(mockUser));
+  // Google Sign In
+  const googleSignIn = () => {
+    const provider = new GoogleAuthProvider();
+    return signInWithPopup(auth, provider);
   };
 
   const logout = () => {
-    setUser(null);
-    localStorage.removeItem('user');
+    return signOut(auth);
   };
 
+  // Update user state when auth state changes
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setLoading(true);
+      if (currentUser) {
+        const userData: User = {
+          id: currentUser.uid,
+          name: currentUser.displayName || 'User',
+          email: currentUser.email || '',
+          photoURL: currentUser.photoURL || undefined,
+          savedResources: []
+        };
+        setUser(userData);
+        localStorage.setItem('user', JSON.stringify(userData));
+      } else {
+        setUser(null);
+        localStorage.removeItem('user');
+      }
+      setLoading(false);
+    });
+
+    return unsubscribe;
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, login, logout, loading }}>
+    <AuthContext.Provider value={{ user, googleSignIn, logout, loading }}>
       {children}
     </AuthContext.Provider>
   );
