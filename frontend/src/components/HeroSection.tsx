@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
                 </div>
                 <input
                   type="text"
-                  placeholder="Enter your zip code"
+                  placeholder="Enter your zipcode"
                   value={zipCode}
                   onChange={(e) => setZipCode(e.target.value)}
                   className="block w-full pl-10 py-3 border-gray-300 focus:ring-green-500 focus:border-green-500 rounded-md"
@@ -58,11 +58,11 @@ const HeroSection: React.FC = () => {
               className="inline-flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
             >
               <Search className="h-5 w-5 mr-2" />
-              Find Food
+              {t('nav.findFood')}
             </button>
           </form>
           <p className="mt-3 text-sm text-green-200">
-            No signup required to find resources. Your privacy matters to us.
+            {t('heroSection.privacyStmt')}
           </p>
         </div>
       </div>

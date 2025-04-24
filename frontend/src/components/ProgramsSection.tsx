@@ -1,6 +1,7 @@
 import React from 'react';
 import { FoodProgram } from '../types';
 import { Utensils, ShoppingCart, Apple, Heart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const programs: FoodProgram[] = [
   {
@@ -53,15 +54,18 @@ const getIcon = (iconName: string) => {
 };
 
 const ProgramsSection: React.FC = () => {
+  const {t} = useTranslation();
+
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Food Assistance Programs
+            {t('programSection.title')}
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-            Learn about programs available to help you and your family access nutritious food.
+            {t('programSection.subTitle')}
+            {/* Learn about programs available to help you and your family access nutritious food. */}
           </p>
         </div>
 

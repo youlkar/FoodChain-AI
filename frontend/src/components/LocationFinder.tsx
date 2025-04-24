@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Navigation } from 'lucide-react';
 import { extractZipCode } from '../utils/routesApiUtils';
+import { useTranslation } from 'react-i18next';
 
 interface LocationFinderProps {
   onLocationSelected: (location: string) => void;
@@ -14,6 +15,7 @@ const LocationFinder: React.FC<LocationFinderProps> = ({
   const [zipCode, setZipCode] = useState(initialZipCode);
   const [isGettingLocation, setIsGettingLocation] = useState(false);
   const [locationError, setLocationError] = useState<string | null>(null);
+  const {t} = useTranslation();
 
   // Handle zip code input
   const handleZipCodeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -87,7 +89,7 @@ const LocationFinder: React.FC<LocationFinderProps> = ({
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md mb-6">
-      <h3 className="text-lg font-medium mb-4">Find agencies near you</h3>
+      <h3 className="text-lg font-medium mb-4">{t('findFoodPage.findAgencies')}</h3>
       
       <form onSubmit={handleZipCodeSubmit} className="mb-4">
         <div className="flex flex-col md:flex-row gap-2">
@@ -108,7 +110,7 @@ const LocationFinder: React.FC<LocationFinderProps> = ({
             type="submit"
             className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md transition"
           >
-            Search
+            {t('findFoodPage.searchBtn')}
           </button>
         </div>
       </form>
@@ -121,14 +123,14 @@ const LocationFinder: React.FC<LocationFinderProps> = ({
             className="flex items-center text-green-600 hover:text-green-800 transition"
           >
             <Navigation className="h-5 w-5 mr-1" />
-            <span>Use my current location</span>
+            <span>{t('findFoodPage.useCurrLocation')}</span>
           </button>
         </div>
       </div>
       
       {isGettingLocation && (
         <div className="mt-2 text-sm text-gray-500">
-          Getting your location...
+          {t('findFoodPage.gettingLocation')}
         </div>
       )}
       

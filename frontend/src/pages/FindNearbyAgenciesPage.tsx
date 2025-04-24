@@ -5,6 +5,7 @@ import LocationFinder from '../components/LocationFinder';
 import AgencyCard from '../components/AgencyCard';
 import { Agency, Hours, TimeSlot } from '../types';
 import { sortAgenciesByDistance } from '../utils/routesApiUtils';
+import { useTranslation } from 'react-i18next';
 
 // Days of the week
 const DAYS_OF_WEEK = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -110,6 +111,8 @@ const FindNearbyAgenciesPage: React.FC = () => {
   const [preparedMealsOnly, setPreparedMealsOnly] = useState(false);
   const [homeDeliveryOnly, setHomeDeliveryOnly] = useState(false);
   const [filtersExpanded, setFiltersExpanded] = useState(false);
+
+  const {t} = useTranslation();
 
   // Update the title
   useEffect(() => {
@@ -438,8 +441,8 @@ const FindNearbyAgenciesPage: React.FC = () => {
     <div className="bg-gray-50 min-h-screen">
       <div className="pt-4 pb-6 px-4 sm:px-6 lg:px-8 bg-green-700 text-white">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl font-bold">Find Nearby Food Resources</h1>
-          <p className="mt-2">Locate food pantries, meal programs, and other resources near you</p>
+          <h1 className="text-3xl font-bold">{t('findAgencyPage.title')}</h1>
+          <p className="mt-2">{t('findAgencyPage.subTitle')}</p>
         </div>
       </div>
       
@@ -455,7 +458,7 @@ const FindNearbyAgenciesPage: React.FC = () => {
             {/* Search filter */}
             <div className="bg-white p-5 rounded-lg shadow-md mt-6">
               <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-medium">Search & Filters</h3>
+                <h3 className="text-lg font-medium">{t('findAgencyPage.searchFilters')}</h3>
                 <button 
                   onClick={() => setFiltersExpanded(!filtersExpanded)}
                   className="text-sm text-green-600 hover:text-green-800 flex items-center"
@@ -639,12 +642,12 @@ const FindNearbyAgenciesPage: React.FC = () => {
             {/* Instructions box */}
             {!userLocation && !loading && !locationLoading && (
               <div className="mt-6 bg-blue-50 p-5 rounded-lg border border-blue-200">
-                <h3 className="text-md font-medium text-blue-800 mb-2">How to find resources</h3>
+                <h3 className="text-md font-medium text-blue-800 mb-2">{t('findAgencyPage.howToFindResources')}</h3>
                 <ol className="list-decimal list-inside text-sm text-blue-700 space-y-1">
-                  <li>Enter your ZIP code or use your current location</li>
-                  <li>Browse nearby food resources</li>
-                  <li>Filter results based on your needs</li>
-                  <li>Click "Get Directions" to visit an agency</li>
+                  <li>{t('findAgencyPage.howToFindBullet1')}</li>
+                  <li>{t('findAgencyPage.howToFindBullet2')}</li>
+                  <li>{t('findAgencyPage.howToFindBullet3')}</li>
+                  <li>{t('findAgencyPage.howToFindBullet4')}</li>
                 </ol>
               </div>
             )}

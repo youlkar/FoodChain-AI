@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Users, Award, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const AboutPage: React.FC = () => {
   // Update document title
@@ -7,16 +8,18 @@ const AboutPage: React.FC = () => {
     document.title = 'About Us | FoodConnect';
   }, []);
 
+  const {t} = useTranslation();
+
   return (
     <div className="bg-gray-50 min-h-screen">
       {/* Hero section */}
       <div className="bg-green-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            Our Mission
+            {t('about.mission')}
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-green-100">
-            Connecting people experiencing food insecurity with the resources they need to thrive.
+            {t('about.missionText')}
           </p>
         </div>
       </div>
@@ -28,13 +31,13 @@ const AboutPage: React.FC = () => {
             <h2 className="text-3xl font-bold text-gray-900">Who We Are</h2>
             <div className="mt-6 text-gray-600 space-y-6">
               <p>
-                FoodConnect was founded in 2023 by a group of community organizers, social workers, and technologists who recognized a critical gap in how people access food assistance.
+                {t('about.whoWeAreContent1')}
               </p>
               <p>
-                Our team observed that while many food resources existed in communities, people often struggled to find these resources or faced barriers when trying to access them. Information was scattered across multiple websites, pamphlets, and word of mouth.
+                {t('about.whoWeAreContent2')}
               </p>
               <p>
-                We built FoodConnect as a centralized platform that makes it easy for anyone facing food insecurity to quickly find nearby resources, understand eligibility requirements, and access the help they need without stigma or unnecessary hurdles.
+              {t('about.whoWeAreContent3')}
               </p>
             </div>
             <div className="mt-8">

@@ -1,11 +1,14 @@
 import React from 'react';
 import { MessageSquare, Share2, Calendar, Users, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CommunityPage: React.FC = () => {
   // Update document title
   React.useEffect(() => {
     document.title = 'Community | FoodConnect';
   }, []);
+
+  const {t} = useTranslation()
 
   // Sample discussion topics
   const discussionTopics = [
@@ -102,10 +105,10 @@ const CommunityPage: React.FC = () => {
       <div className="bg-green-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            Join Our Community
+            {t('communityPage.title')}
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-green-100">
-            Connect with others, share experiences, and find support on your journey to food security.
+            {t('communityPage.subTitle')}
           </p>
         </div>
       </div>
