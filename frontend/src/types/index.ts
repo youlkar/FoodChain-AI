@@ -21,18 +21,28 @@ export interface Resource {
   image?: string;
 }
 
+export interface TimeSlot {
+  start: string;
+  end: string;
+}
+
+export interface Hours {
+  [day: string]: TimeSlot[];
+}
+
 export interface Agency {
   id?: string;
   name: string;
   address: string;
   phone: string;
-  hours: string;
+  hours: Hours;
   appointment_needed: string;
   requirements: string;
   distribution_model: string;
   notes: string;
   cultures_served: string[];
   distance?: number;
+  food_format?: string;
 }
 
 export interface Service {

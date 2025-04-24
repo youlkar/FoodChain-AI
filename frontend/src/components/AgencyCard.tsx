@@ -1,6 +1,19 @@
 import React from 'react';
-import { Agency } from '../types';
-import { MapPin, Phone, Clock, Info, UsersRound, Package } from 'lucide-react';
+import { Agency, TimeSlot } from '../types';
+import { MapPin, Phone, Clock, Info, UsersRound, Package, ShoppingBag } from 'lucide-react';
+
+// Food format types to infer
+const FOOD_FORMATS = [
+  { id: 'groceries', label: 'Groceries', keywords: ['grocer', 'food pantry', 'pantry', 'food bank', 'dry goods'] },
+  { 
+    id: 'prepared-meals', 
+    label: 'Prepared Meals', 
+    keywords: ['meal', 'hot food', 'cooked', 'prepared', 'ready-to-eat', 'ready to eat', 'boxed lunch', 'lunch', 'dinner'] 
+  },
+  { id: 'fresh-produce', label: 'Fresh Produce', keywords: ['produce', 'fresh', 'vegetable', 'fruit', 'veggies'] },
+  { id: 'canned-goods', label: 'Canned Goods', keywords: ['canned', 'non-perishable', 'can'] },
+  { id: 'pantry-items', label: 'Pantry Items', keywords: ['pantry', 'non-perishable', 'dry goods', 'staple'] }
+];
 
 interface AgencyCardProps {
   agency: Agency;
@@ -36,6 +49,89 @@ const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
       return "100+";
     }
   };
+  
+  // Format hours from structured format to display string
+  const formatHours = (hours: any): string => {
+    // Handle null/undefined case
+    if (!hours) return '';
+    
+    // Handle legacy string format
+    if (typeof hours === 'string') return hours;
+    
+    try {
+      // Must be an object at this point - process as new format
+      const formattedHours: string[] = [];
+      
+      // Sort days in week order
+      const dayOrder: { [key: string]: number } = {
+        "Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4, 
+        "Friday": 5, "Saturday": 6, "Sunday": 7
+      };
+      
+      const sortedDays = Object.keys(hours).sort((a, b) => {
+        return (dayOrder[a] || 99) - (dayOrder[b] || 99);
+      });
+      
+      // Format each day's hours
+      for (const day of sortedDays) {
+        const timeSlots = hours[day];
+        if (timeSlots && Array.isArray(timeSlots) && timeSlots.length > 0) {
+          const formattedTimeSlots = timeSlots.map((slot: any) => {
+            if (!slot || !slot.start || !slot.end) return '';
+            
+            // Convert 24-hour format to 12-hour format for display
+            const formatTimeDisplay = (timeStr: string): string => {
+              try {
+                const parts = timeStr.split(':');
+                if (parts.length < 2) return timeStr;
+                
+                const hours = parseInt(parts[0], 10);
+                const minutes = parts[1];
+                
+                if (isNaN(hours)) return timeStr;
+                
+                const suffix = hours >= 12 ? 'PM' : 'AM';
+                const displayHour = hours % 12 || 12;
+                return `${displayHour}:${minutes} ${suffix}`;
+              } catch {
+                return timeStr;
+              }
+            };
+            
+            return `${formatTimeDisplay(slot.start)} to ${formatTimeDisplay(slot.end)}`;
+          }).filter(Boolean);
+          
+          if (formattedTimeSlots.length > 0) {
+            formattedHours.push(`${day}: ${formattedTimeSlots.join(', ')}`);
+          }
+        }
+      }
+      
+      return formattedHours.join('; ');
+    } catch (error) {
+      console.error('Error formatting hours:', error);
+      return typeof hours === 'object' ? 'Hours information available' : 'Hours information unavailable';
+    }
+  };
+  
+  // Infer food formats from agency data
+  const inferFoodFormats = (): string[] => {
+    if (agency.food_format) return [agency.food_format];
+    
+    const notesLower = agency.notes ? agency.notes.toLowerCase() : '';
+    const distributionLower = agency.distribution_model ? agency.distribution_model.toLowerCase() : '';
+    
+    return FOOD_FORMATS
+      .filter(format => {
+        return format.keywords.some(keyword => 
+          notesLower.includes(keyword) || distributionLower.includes(keyword)
+        );
+      })
+      .map(format => format.label);
+  };
+  
+  // Get inferred food formats
+  const foodFormats = inferFoodFormats();
   
   const distanceDisplay = formatDistance(agency.distance);
   
@@ -85,7 +181,7 @@ const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
         {agency.hours && (
           <div className="flex items-start text-gray-600 mb-2">
             <Clock className="h-4 w-4 mr-1 mt-1 flex-shrink-0" />
-            <span className="text-sm">{agency.hours}</span>
+            <span className="text-sm">{formatHours(agency.hours)}</span>
           </div>
         )}
         
@@ -111,6 +207,25 @@ const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
             <div>
               <p className="text-sm font-medium text-gray-700 mb-1">Distribution Model:</p>
               <p className="text-sm text-gray-600">{agency.distribution_model}</p>
+            </div>
+          </div>
+        )}
+        
+        {foodFormats.length > 0 && (
+          <div className="mt-3 flex items-start">
+            <ShoppingBag className="h-4 w-4 mr-1 mt-1 flex-shrink-0 text-orange-500" />
+            <div>
+              <p className="text-sm font-medium text-gray-700 mb-1">Food Formats:</p>
+              <div className="flex flex-wrap gap-1">
+                {foodFormats.map((format, index) => (
+                  <span 
+                    key={index} 
+                    className="px-2 py-1 text-xs rounded-full bg-orange-100 text-orange-800"
+                  >
+                    {format}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         )}
