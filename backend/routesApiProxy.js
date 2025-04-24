@@ -8,7 +8,8 @@ const port = process.env.PORT || 3001;
 
 // Enable CORS for your frontend
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  // origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: process.env.FRONTEND_URL || 'https://main.dv8lgo1pwq1w6.amplifyapp.com',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
