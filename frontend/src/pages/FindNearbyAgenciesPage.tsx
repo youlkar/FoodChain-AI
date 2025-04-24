@@ -121,7 +121,8 @@ const FindNearbyAgenciesPage: React.FC = () => {
     const fetchAgencyData = async () => {
       try {
         // Fetch agencies data from the JSON file
-        const response = await fetch('/src/data/agencies.json');
+        // const response = await fetch('/src/data/agencies.json');
+        const response = await fetch('/data/agencies.json');
         const data = await response.json();
         
         // Add IDs to agencies if they don't have them
