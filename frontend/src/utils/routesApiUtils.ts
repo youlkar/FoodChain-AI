@@ -204,14 +204,14 @@ async function calculateFallbackDistances(
           // Extract ZIP code and estimate based on that
           const destZip = extractZipCode(address);
           if (originZip && destZip) {
-            distance = estimateDistanceByZipCode(originZip, destZip);
+            distance = estimateDistanceByZipCode(originZip, destZip, address);
           }
         }
       } else if (originZip) {
         // If we only have ZIP codes
         const destZip = extractZipCode(address);
         if (destZip) {
-          distance = estimateDistanceByZipCode(originZip, destZip);
+          distance = estimateDistanceByZipCode(originZip, destZip, address);
         }
       }
     } catch (error) {
@@ -230,8 +230,11 @@ async function calculateFallbackDistances(
  * Estimate distance between ZIP codes based on their numeric values
  * This is a very rough approximation but better than nothing
  */
-function estimateDistanceByZipCode(zip1: string, zip2: string): number {
-  if (zip1 === zip2) return 0.5; // Same ZIP code
+function estimateDistanceByZipCode(zip1: string, zip2: string, address?: string): number {
+  if (zip1 === zip2) {
+    // For agencies in the same ZIP code, show as 0.0 miles away
+    return 0.0;
+  }
   
   // Compare first digits (regional difference)
   const region1 = parseInt(zip1.charAt(0));
