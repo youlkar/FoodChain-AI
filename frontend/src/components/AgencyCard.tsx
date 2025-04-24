@@ -7,14 +7,63 @@ interface AgencyCardProps {
 }
 
 const AgencyCard: React.FC<AgencyCardProps> = ({ agency }) => {
+  // Format distance with appropriate accuracy
+  const formatDistance = (distance: number | undefined) => {
+    if (distance === undefined || distance === null) return undefined;
+    if (!isFinite(distance)) return undefined;
+    
+    // Ensure positive value
+    distance = Math.abs(distance);
+    
+    // For very close distances (less than 0.1 mile)
+    if (distance < 0.1) {
+      return "< 0.1";
+    }
+    // For distances less than 1 mile, show one decimal place
+    else if (distance < 1) {
+      return distance.toFixed(1);
+    }
+    // For distances between 1-10 miles, show one decimal place
+    else if (distance < 10) {
+      return distance.toFixed(1);
+    }
+    // For distances 10-100 miles, show whole numbers
+    else if (distance < 100) {
+      return Math.round(distance);
+    }
+    // For very large distances, cap at "100+"
+    else {
+      return "100+";
+    }
+  };
+  
+  const distanceDisplay = formatDistance(agency.distance);
+  
+  // Add color coding based on distance
+  const getDistanceBadgeColor = (distance: number | undefined) => {
+    if (distance === undefined || !isFinite(distance)) return "bg-blue-100 text-blue-800";
+    
+    if (distance < 3) {
+      return "bg-green-100 text-green-800"; // Very close
+    } else if (distance < 8) {
+      return "bg-blue-100 text-blue-800"; // Close
+    } else if (distance < 15) {
+      return "bg-yellow-100 text-yellow-800"; // Moderate
+    } else if (distance < 30) {
+      return "bg-orange-100 text-orange-800"; // Far
+    } else {
+      return "bg-purple-100 text-purple-800"; // Very far
+    }
+  };
+  
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg flex flex-col h-full">
       <div className="p-5 flex-grow flex flex-col">
         <div className="flex justify-between items-start">
           <h3 className="text-xl font-bold text-gray-900 mb-2">{agency.name}</h3>
-          {agency.distance !== undefined && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              {agency.distance.toFixed(1)} miles away
+          {distanceDisplay !== undefined && (
+            <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${getDistanceBadgeColor(agency.distance)}`}>
+              {distanceDisplay} {distanceDisplay === '1' || distanceDisplay === '1.0' ? 'mile' : 'miles'} away
             </span>
           )}
         </div>

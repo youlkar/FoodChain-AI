@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, Apple, LogIn } from 'lucide-react';
+import { Menu, X, Apple, LogIn, MapPin } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const Navbar: React.FC = () => {
@@ -41,6 +41,7 @@ const Navbar: React.FC = () => {
                 to="/resources" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
+                <MapPin className="h-4 w-4 mr-1" />
                 Find Food
               </Link>
               <Link 
@@ -130,7 +131,10 @@ const Navbar: React.FC = () => {
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
             >
-              Find Food
+              <div className="flex items-center">
+                <MapPin className="h-4 w-4 mr-1" />
+                Find Food
+              </div>
             </Link>
             <Link
               to="/services"

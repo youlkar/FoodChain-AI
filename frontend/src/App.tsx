@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import ResourcesPage from './pages/ResourcesPage';
 import AboutPage from './pages/AboutPage';
 import CommunityPage from './pages/CommunityPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import ProfilePage from './pages/ProfilePage';
 import ServicesPage from './pages/ServicesPage';
+import FindNearbyAgenciesPage from './pages/FindNearbyAgenciesPage';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
 // Protected route component
@@ -30,7 +30,8 @@ function AppRoutes() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/resources" element={<FindNearbyAgenciesPage />} />
+          <Route path="/find-nearby" element={<FindNearbyAgenciesPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:serviceId" element={<ServicesPage />} />
           <Route path="/about" element={<AboutPage />} />

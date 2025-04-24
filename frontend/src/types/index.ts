@@ -4,6 +4,8 @@ export interface User {
   email: string;
   photoURL?: string;
   savedResources?: string[];
+  uid: string;
+  displayName: string | null;
 }
 
 export interface Resource {

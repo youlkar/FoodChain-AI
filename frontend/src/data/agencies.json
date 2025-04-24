@@ -9,7 +9,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "A Place for Hashem Ministries",
@@ -20,7 +22,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "ABSYNA, Inc. - Brentwood",
@@ -31,7 +35,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "ACTS",
@@ -42,7 +48,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "ADAMS CENTER",
@@ -53,7 +61,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "ALIVE",
@@ -64,7 +74,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Academy of Hope",
@@ -75,7 +87,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Adventist Community Services of Greater Washington",
@@ -86,7 +100,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Agape Early Childhood Learning",
@@ -97,7 +113,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Alafia Baptist Church",
@@ -123,14 +141,16 @@
     },
     {
       "name": "Alexandria Food Pantry",
-      "address": "Catholic Charities - CHRIST HOUSE 4725A Eisenhower Avenue ALEXANDRIA VA 22304",
+      "address": "725A Eisenhower Avenue ALEXANDRIA VA 22304",
       "phone": "(703) 719-8939",
       "hours": "Wednesday\u2013Thursday: 09:00:00 to 13:00:00",
       "appointment_needed": "No",
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Allen Chapel AME Church",
@@ -152,7 +172,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Ambassador Baptist Church",
@@ -163,7 +185,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "American University",
@@ -185,7 +209,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Antioch Baptist Church of Clinton",
@@ -196,7 +222,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Apostolic Church Glorious Vision",
@@ -207,7 +235,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Ark of Grace Mission, Inc",
@@ -218,7 +248,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Arlington Bridge Builders",
@@ -229,7 +261,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Assumption Outreach",
@@ -273,18 +307,22 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Barcroft Elementary School",
-      "address": "Communities in Schools NOVA, Arlington The Women's Club of Arlington 700 S Buchanan St Arlington VA 22204",
+      "address": "700 S Buchanan St Arlington VA 22204",
       "phone": "",
       "hours": "Thursday: 15:00:00 to 17:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Beltsville Adventist Community Center",
@@ -295,7 +333,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Bethesda Cares",
@@ -317,7 +357,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "Bethlehem Baptist Church",
@@ -328,7 +370,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Boat People SOS",
@@ -350,7 +394,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Bread For The City NW Center",
@@ -361,7 +407,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Bread for the City SE Center",
@@ -372,7 +420,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Breath of Life SDA Church",
@@ -394,7 +444,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,West African"
+      ]
     },
     {
       "name": "Brookland Senior Day Care Center, Inc.",
@@ -416,7 +468,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Buddhist Tzu Chi Foundation",
@@ -427,7 +481,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Builders, Inc",
@@ -438,7 +494,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Bull Run Unitarian Universalists",
@@ -449,7 +507,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Burke United Methodist Church",
@@ -460,7 +520,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "CAC Bethel Fellowship Church",
@@ -471,7 +533,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "CAC Wosem- 24th Place",
@@ -482,7 +546,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "West African"
+      ]
     },
     {
       "name": "CFH Inc.",
@@ -497,7 +563,7 @@
     },
     {
       "name": "CMPGC - Belulah Baptist",
-      "address": "Community Ministry of PG County (Belulah Baptist) 6056 old central Ave Capitol Heights MD 20743",
+      "address": "6056 old central Ave Capitol Heights MD 20743",
       "phone": "",
       "hours": "Friday: 09:00:00 to 11:00:00",
       "appointment_needed": "No",
@@ -508,7 +574,7 @@
     },
     {
       "name": "CMPGC - New Craig",
-      "address": "Community Minstry of PG County (New Craig) 5305 Farmingdale Road Capitol Heights MD 20743",
+      "address": "5305 Farmingdale Road Capitol Heights MD 20743",
       "phone": "",
       "hours": "Friday: 09:00:00 to 11:00:00",
       "appointment_needed": "No",
@@ -519,7 +585,7 @@
     },
     {
       "name": "CMPGC - Oxon Hill",
-      "address": "Community Ministry of PG County (Oxon Hill) 7711 Livingston Road Oxon Hill MD 20745",
+      "address": "7711 Livingston Road Oxon Hill MD 20745",
       "phone": "",
       "hours": "Friday: 09:00:00 to 11:00:00",
       "appointment_needed": "No",
@@ -530,25 +596,29 @@
     },
     {
       "name": "CMPGC - Seat Pleasant",
-      "address": "Community Ministry of PG County (Seat Plesant) 5356 Sheriff Road Capitol Heights  MD 20743",
+      "address": "5356 Sheriff Road Capitol Heights  MD 20743",
       "phone": "",
       "hours": "Friday: 09:00:00 to 11:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Calvary Assembly of Holy Cross",
-      "address": "Calvary Assembly Calvary Assemby 3505 Hubbard Rd LANDOVER MD 20785",
+      "address": "3505 Hubbard Rd LANDOVER MD 20785",
       "phone": "",
       "hours": "Wednesday: 09:30:00 to 11:30:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Calvary Christian Church",
@@ -559,7 +629,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Calvary Episcopal Church",
@@ -570,7 +642,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Calvary Pentecostal Ministries",
@@ -581,7 +655,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Capital Christian Fellowship",
@@ -592,18 +668,22 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Catholic Charities - Montgomery County Family Center",
-      "address": "Montgomery County Family Center 12247 Georgia Ave Silver Spring MD 20902",
+      "address": "12247 Georgia Ave Silver Spring MD 20902",
       "phone": "",
       "hours": "Tuesday: 10:00:00 to 12:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Celestial Church of Christ",
@@ -614,7 +694,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Central Baptist Church of Camp Springs",
@@ -625,7 +707,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Central Union Mission",
@@ -636,7 +720,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Centreville UMC",
@@ -647,7 +733,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Centro de Apoyo Familiar (CAF)",
@@ -658,7 +746,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Chantilly Baptist Church",
@@ -669,7 +759,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Cheer, Inc.",
@@ -680,7 +772,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Chick Armstrong Recreation Center",
@@ -713,7 +807,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Christ Embassy Maryland",
@@ -724,7 +820,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Christ United Methodist 5000 Food Ministry",
@@ -735,18 +833,22 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American"
+      ]
     },
     {
       "name": "Christ the Redeemer Catholic Church",
-      "address": "LINK Mobile Food Pantry LINK Mobile Food Pantry - Christ the Redeemer 46833 Harry Byrd Hwy Sterling VA 20164",
+      "address": "46833 Harry Byrd Hwy Sterling VA 20164",
       "phone": "",
       "hours": "Tuesday: 10:00:00 to 11:30:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Christ4Crisis",
@@ -779,7 +881,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American"
+      ]
     },
     {
       "name": "Church of The Redeemer of Gaithersburg",
@@ -790,7 +894,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Church of the Incarnation, St. Vincent De Paul Society",
@@ -812,7 +918,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "City Blossoms",
@@ -823,7 +931,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "City of David Ministries",
@@ -845,7 +955,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "City of Hyattsville",
@@ -856,7 +968,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "City of Praise Family Ministries",
@@ -867,7 +981,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Clifton Park Baptist Church",
@@ -878,7 +994,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Clothing of Power Eternal Church",
@@ -889,7 +1007,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Code 3 Association",
@@ -900,7 +1020,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "College Park Community Food Bank",
@@ -911,7 +1033,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Columbia Baptist Church",
@@ -922,7 +1046,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Columbia Heights Village Tenant Association",
@@ -933,7 +1059,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Community Family Life Services",
@@ -944,7 +1072,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Community Health Foundation",
@@ -955,11 +1085,13 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Community Marketplace - Arlington",
-      "address": "Arlington Mill Community Center  909 S Dinwiddie St Arlington VA 22204",
+      "address": "909 S Dinwiddie St Arlington VA 22204",
       "phone": "",
       "hours": "Saturday: 08:30:00 to 10:30:00",
       "appointment_needed": "No",
@@ -970,7 +1102,7 @@
     },
     {
       "name": "Community Marketplace - Reston",
-      "address": "Cathy Hudgins Community Center at Southgate  12125 Pinecrest Rd Reston VA 20190",
+      "address": "12125 Pinecrest Rd Reston VA 20190",
       "phone": "",
       "hours": "Saturday: 08:30:00 to 10:30:00",
       "appointment_needed": "No",
@@ -999,7 +1131,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Community Outreach and Development CDC",
@@ -1010,7 +1144,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Community Outreach and Development Center CDC",
@@ -1021,7 +1157,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Community Support Systems Inc BADEN",
@@ -1043,7 +1181,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Eastern European,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Congress Heights Family Success Center",
@@ -1065,7 +1205,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Cornerstone Peaceful Bible Baptist Church",
@@ -1076,7 +1218,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Cornerstones, Inc.",
@@ -1087,7 +1231,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Covenant Baptist Food Pantry",
@@ -1109,7 +1255,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Coverstone Apartments",
@@ -1120,7 +1268,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Crossover Church",
@@ -1131,7 +1281,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Crowder Owens Calvary Food Bank (The Bishop Alfred A. Owens, Jr. Family Life CC)",
@@ -1142,7 +1294,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Culmore United Methodist Church",
@@ -1153,7 +1307,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "DC Central Kitchen",
@@ -1164,7 +1320,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "DC Doors",
@@ -1197,7 +1355,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "DMV Food Justice Initiative",
@@ -1208,11 +1368,13 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Dale City Christian Church",
-      "address": "Cathedral of Praise 14022 Lindendale Rd Dale City VA 22193",
+      "address": "14022 Lindendale Rd Dale City VA 22193",
       "phone": "",
       "hours": "Saturday: 09:00:00 to 12:00:00",
       "appointment_needed": "No",
@@ -1230,7 +1392,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Dar Al-Hijrah Islamic Center",
@@ -1241,18 +1405,22 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Debre Medehanit Eyesus Ethiopian Ortodox Tewahido Church",
-      "address": "Salvation Army (PW County)  13450 Minnieville Rd Woodbridge VA 22192",
+      "address": "13450 Minnieville Rd Woodbridge VA 22192",
       "phone": "",
       "hours": "Thursday: 10:00:00 to 12:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Destiny Driven",
@@ -1263,7 +1431,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Divine Grace Mission",
@@ -1274,7 +1444,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Dupont Park SDA Church",
@@ -1285,7 +1457,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American"
+      ]
     },
     {
       "name": "ECD - Edgewood Commons",
@@ -1318,7 +1492,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "East Montgomery County Hub",
@@ -1329,7 +1505,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Ebenezer AME Church",
@@ -1340,7 +1518,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Ebenezer Baptist Church",
@@ -1351,7 +1531,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Ebenezer Church of God",
@@ -1362,7 +1544,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Ebenezer We Care We Share Community",
@@ -1384,7 +1568,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Edward C Mazique Child Care Center",
@@ -1395,7 +1581,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Emmanuel Baptist Church",
@@ -1417,7 +1605,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Emmanuel Worship Center Seventh Day Adventist Church",
@@ -1428,7 +1618,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Emory Beacon of Light, Inc.",
@@ -1439,7 +1631,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "FISH of Laurel, Inc.",
@@ -1450,7 +1644,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "Fairfax Church Resource Center",
@@ -1465,14 +1661,16 @@
     },
     {
       "name": "Fairmont Gardens Apartments",
-      "address": "Legal Aid Justice Center, Annandale  4100 Wadsworth Ct Annandale VA 22003",
+      "address": "4100 Wadsworth Ct Annandale VA 22003",
       "phone": "",
       "hours": "Thursday: 09:00:00 to 11:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Faith Social Services",
@@ -1483,7 +1681,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Faith Tabernacle of Prayer",
@@ -1505,7 +1705,10 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African",
+        "East African,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Faith United Church of Christ",
@@ -1516,7 +1719,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Faith United Ministries Outreach",
@@ -1527,7 +1732,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,West African"
+      ]
     },
     {
       "name": "Faith Village of Greater Laurel, Inc.",
@@ -1538,7 +1745,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Family & Medical Counseling Service",
@@ -1549,7 +1758,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "First African Methodist Episcopal Church of Alexandria",
@@ -1560,7 +1771,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "First African Methodist Episcopal Church of Gaithersburg",
@@ -1571,18 +1784,22 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "First Agape Baptist Church",
-      "address": "Leonard Armstrong Rec Center  25 W Reed Ave Alexandria VA 22305",
+      "address": "25 W Reed Ave Alexandria VA 22305",
       "phone": "",
       "hours": "Friday: 11:00:00 to 13:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "First Alliance Church",
@@ -1593,7 +1810,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "First Baptist Church Ken-Gar",
@@ -1604,7 +1823,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "First Baptist Church of Capitol Heights",
@@ -1615,7 +1836,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "First Baptist Church of District Heights",
@@ -1626,7 +1849,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "First Baptist Church of Highland Park",
@@ -1648,7 +1873,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "First SDA Church",
@@ -1659,7 +1886,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Floris United Methodist Church",
@@ -1670,7 +1899,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Foggy Bottom Food Pantry (United Church)",
@@ -1681,7 +1912,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Food For All",
@@ -1692,7 +1925,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Food For Others",
@@ -1703,7 +1938,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Fort Foote Baptist Church",
@@ -1714,7 +1951,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Fort Washington Food Pantry",
@@ -1725,7 +1964,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Fountain Community Enrichment Inc.",
@@ -1747,7 +1988,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Francis C. Hammond Middle School",
@@ -1758,7 +2001,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Francis On The Hill",
@@ -1769,7 +2014,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Frederick Douglass Community Center",
@@ -1780,7 +2027,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Freedom Community Church",
@@ -1791,7 +2040,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Freedom Way Missionary Baptist Church",
@@ -1802,7 +2053,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Friends Of Douglass Community Center",
@@ -1813,7 +2066,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "GAP Food Program",
@@ -1824,7 +2079,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Gaithersburg HELP",
@@ -1835,7 +2092,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,Eastern European,Latin American"
+      ]
     },
     {
       "name": "Gaithersburg Soup Kitchen",
@@ -1846,7 +2105,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Galilee Community Development Corporation",
@@ -1857,7 +2118,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,Eastern European,Latin American"
+      ]
     },
     {
       "name": "Gallaudet University Food Pantry",
@@ -1883,14 +2146,16 @@
     },
     {
       "name": "Georgetown South Community Council",
-      "address": "Georgetown South 9444 Taney Rd Manassas VA 20110",
+      "address": "9444 Taney Rd Manassas VA 20110",
       "phone": "",
       "hours": "Thursday: 13:30:00 to 16:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Gethsemane United Methodist Church",
@@ -1901,7 +2166,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Good Samaritan Ministry",
@@ -1912,7 +2179,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Good Success Christian Church",
@@ -1923,7 +2192,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Gospel Assembly Church",
@@ -1934,7 +2205,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Grace Baptist Church",
@@ -1945,7 +2218,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Grace Episcopal Church",
@@ -1956,7 +2231,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Grace Ministries - Culmore",
@@ -1967,7 +2244,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American"
+      ]
     },
     {
       "name": "Grace of God Ministry",
@@ -1978,7 +2257,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Great Commission Change of Life Ministries",
@@ -1989,7 +2270,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Greater Fellowship Missionary Baptist Church",
@@ -2011,7 +2294,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Greater Morning Star Apostolic Church",
@@ -2022,7 +2307,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Greater New Hope Baptist Church",
@@ -2033,7 +2320,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,West African"
+      ]
     },
     {
       "name": "Greater Refuge Ministries",
@@ -2044,7 +2333,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Groveton Baptist Church",
@@ -2055,7 +2346,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Guru Nanak Foundation of America (GNFA)",
@@ -2066,22 +2359,26 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "HC - Germantown",
-      "address": "Holy Cross- Germantown 19801 Observation Drive Germantown MD 20876",
+      "address": "19801 Observation Drive Germantown MD 20876",
       "phone": "",
       "hours": "Wednesday: 13:00:00 to 15:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "HC - Silver Spring",
-      "address": "Holy Cross 1500 Forest Glen Rd, Silver Spring MD 20910",
+      "address": "1500 Forest Glen Rd, Silver Spring MD 20910",
       "phone": "",
       "hours": "Wednesday: 13:00:00 to 15:00:00",
       "appointment_needed": "No",
@@ -2099,7 +2396,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Haymarket Regional Food Pantry",
@@ -2110,7 +2409,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Helping Hungry Kids of NOVA",
@@ -2121,11 +2422,13 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Hermosa Valley Mobile Home Park",
-      "address": "Marumsco Mobile Home Park 13950 Richmond Hwy Woodbridge VA 22191",
+      "address": "13950 Richmond Hwy Woodbridge VA 22191",
       "phone": "",
       "hours": "Thursday: 11:00:00 to 13:00:00",
       "appointment_needed": "No",
@@ -2143,7 +2446,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Holy Family Catholic Church Food Pantry",
@@ -2165,7 +2470,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Hope Multiplied",
@@ -2176,7 +2483,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Hope Presbyterian Church",
@@ -2198,7 +2507,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian"
+      ]
     },
     {
       "name": "Hughes United Methodist Church",
@@ -2209,7 +2520,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Hyattsville Courthouse Parole and Probation",
@@ -2231,7 +2544,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "ISKCON of Washington",
@@ -2242,7 +2557,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Iglesia De Dios Pentecostal Nuevo Renacer",
@@ -2253,7 +2570,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Iglesia Evangelica Cristo Promesa Fiel",
@@ -2264,7 +2583,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Iglesia Pentecostal Trono de Jehova",
@@ -2275,7 +2596,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Impact One Church",
@@ -2286,7 +2609,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Inova Cares Clinics",
@@ -2308,7 +2633,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Interfaith Community Action Council - Oxon Hill Food Pantry",
@@ -2319,7 +2646,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "International High School at Largo",
@@ -2356,14 +2685,16 @@
     },
     {
       "name": "James Creek Resident Council",
-      "address": "Inc 100 N St SW Washington DC 20024",
+      "address": "100 N St SW Washington DC 20024",
       "phone": "",
       "hours": "Wednesday: 09:00:00 to 12:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "James Lee Community Center",
@@ -2385,7 +2716,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Kingdom Cares Center",
@@ -2407,7 +2740,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Kitchen of Purpose",
@@ -2418,7 +2753,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Koinonia Foundation, Inc.",
@@ -2429,7 +2766,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "LINK Mobile Food Pantry - Christ the Redeemer",
@@ -2440,7 +2779,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "La Iglesia Episcopal de Santa Maria",
@@ -2451,7 +2792,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Largo Community Church",
@@ -2462,7 +2805,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Latin American Youth Center",
@@ -2473,7 +2818,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Laurel Advocacy & Referral Services, Inc.",
@@ -2484,7 +2831,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Lederer Gardens",
@@ -2495,7 +2844,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Life Builders",
@@ -2517,7 +2868,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "LindaBen Foundation",
@@ -2528,7 +2881,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Little David Baptist Church",
@@ -2539,7 +2894,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Living Faith Lutheran Church",
@@ -2561,7 +2918,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Loaves & Fishes",
@@ -2572,7 +2931,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Lorton Community Action Center",
@@ -2583,7 +2944,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Love Church",
@@ -2605,7 +2968,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Luther Jackson Middle School Food Pantry",
@@ -2616,7 +2981,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Luther Rice Neighborhood Center",
@@ -2627,7 +2994,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Lutheran Church of the Abiding Presence",
@@ -2638,7 +3007,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "MSB Community Outreach",
@@ -2649,7 +3020,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "MSB Outreach House",
@@ -2660,7 +3033,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Manassas Baptist Church",
@@ -2682,11 +3057,13 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Maranatha Springfield Church",
-      "address": "Marantha - Springfield 5515 Cherokee Ave Suite 102 Alexandria VA 22312",
+      "address": "5515 Cherokee Ave Suite 102 Alexandria VA 22312",
       "phone": "",
       "hours": "Saturday: 09:00:00 to 12:00:00",
       "appointment_needed": "No",
@@ -2704,7 +3081,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Mary House",
@@ -2715,7 +3094,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Maryland Umbrella Group",
@@ -2726,7 +3107,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Messiah United Methodist Church",
@@ -2737,7 +3120,10 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African",
+        "Latin American"
+      ]
     },
     {
       "name": "Metropolis Club",
@@ -2748,7 +3134,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Metropolitan Baptist Church",
@@ -2759,7 +3147,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Metropolitan SDA Church",
@@ -2770,7 +3160,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Mid County United Ministries (MUM)",
@@ -2781,7 +3173,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Mid-County Hub at Harvest Intercontinental Church Olney",
@@ -2792,7 +3186,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Miriam's Kitchen",
@@ -2803,7 +3199,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Mission of Love Charities, Inc.",
@@ -2836,7 +3234,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Montgomery College - Germantown",
@@ -2847,7 +3247,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Montgomery College - Rockville",
@@ -2891,7 +3293,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Mother of Light Center",
@@ -2902,7 +3306,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American"
+      ]
     },
     {
       "name": "Mount Calvary Baptist Church",
@@ -2913,7 +3319,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Mount Ennon Baptist Church",
@@ -2924,7 +3332,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Mount Moriah Baptist Church",
@@ -2946,11 +3356,13 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American"
+      ]
     },
     {
       "name": "Mount Olivet United Methodist Church",
-      "address": "Mount Olivet UMC 1500 N Glebe Rd Arlington VA 22207",
+      "address": "1500 N Glebe Rd Arlington VA 22207",
       "phone": "",
       "hours": "Saturday: 08:00:00 to 11:00:00",
       "appointment_needed": "No",
@@ -2968,7 +3380,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Mt. Calvary Catholic Church, Ladies of Charity Food Pantry",
@@ -2990,7 +3404,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Muslim Community Center",
@@ -3001,7 +3417,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "NW Community Food",
@@ -3012,7 +3430,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "National Baptist Memorial Church",
@@ -3023,7 +3443,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "National City Christian Church",
@@ -3034,7 +3456,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "New Hope Housing Kennedy Shelter",
@@ -3100,7 +3524,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "No Limits Outreach Ministries",
@@ -3111,7 +3537,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "North Capitol Collaborative, Inc.",
@@ -3122,7 +3550,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Northeastern Presbyterian Church",
@@ -3166,7 +3596,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Nourish Now",
@@ -3177,7 +3609,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Nourishing Bethesda",
@@ -3188,7 +3622,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Oak Chapel UMC",
@@ -3199,7 +3635,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Operation Earnie's Plate",
@@ -3210,7 +3648,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Our Lady Queen of Peace Church",
@@ -3221,7 +3661,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Our Lady of Perpetual Help Church",
@@ -3243,7 +3685,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,Latin American"
+      ]
     },
     {
       "name": "Oxon Hill Church of Christ",
@@ -3265,7 +3709,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "Paramount Baptist Church",
@@ -3320,7 +3766,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Ports Town Church",
@@ -3331,7 +3779,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Prince Emmanuel All Nations SDA Church",
@@ -3342,7 +3792,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "Prince George's County DSS",
@@ -3353,7 +3805,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Prince George's Dept of Social Services SEED",
@@ -3397,7 +3851,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "R Street Apartments",
@@ -3408,7 +3864,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "RCCG New Wine Assembly",
@@ -3419,7 +3877,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Rainbow Community Development Center",
@@ -3430,7 +3890,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Recovery Program Solutions of Virginia",
@@ -3441,7 +3903,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Reid Temple AME Church",
@@ -3452,7 +3916,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Restoration Church",
@@ -3463,7 +3929,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Resurrection Bible Church",
@@ -3474,7 +3942,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Revival Baptist Ministries INT",
@@ -3485,7 +3955,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Rising Hope Methodist Mission Church",
@@ -3496,18 +3968,22 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Rising Hope Mission Church",
-      "address": "Rising Hope UMMC 8220 Russell Rd Alexandria VA 22309",
+      "address": "8220 Russell Rd Alexandria VA 22309",
       "phone": "",
       "hours": "Tuesday: 12:30:00 to 14:30:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "River Jordan, Inc.",
@@ -3518,7 +3994,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "River of Life Redeemed Christian Church of God",
@@ -3540,7 +4018,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Royalhouse Chapel International",
@@ -3551,7 +4031,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Sacred Heart Catholic Church",
@@ -3573,7 +4055,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Salvation Army  (PW County)",
@@ -3584,7 +4068,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Salvation Army (Fairfax)",
@@ -3595,7 +4081,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Salvation Army Arlington Corps",
@@ -3606,7 +4094,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "SeVerna",
@@ -3628,7 +4118,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Seneca Creek Community Church (Gaithersburg CARES)",
@@ -3639,7 +4131,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "SevaTruck Foundation",
@@ -3650,7 +4144,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American"
+      ]
     },
     {
       "name": "Shabach Emergency Empowerment Center",
@@ -3661,7 +4157,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "She Believes in Me",
@@ -3672,7 +4170,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Shepherd's Table - Progress Place Building",
@@ -3683,7 +4183,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Shiloh Church Of God 7 Day",
@@ -3694,7 +4196,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Silver Spring Christian Reformed Church",
@@ -3705,7 +4209,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Silver Spring UMC",
@@ -3716,7 +4222,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Sixth Church Food Closet",
@@ -3727,7 +4235,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Small Things Matter, Inc",
@@ -3738,7 +4248,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "So Others Might Eat",
@@ -3749,7 +4261,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "So What Else, Inc",
@@ -3760,7 +4274,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "South Lakes High School PTSA Food Pantry : South Lakes High School PTSA Food Pantry",
@@ -3782,7 +4298,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "Southern Hills Community Center",
@@ -3804,7 +4322,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Spanish Catholic Center",
@@ -3815,7 +4335,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Springfield Christian Church",
@@ -3826,7 +4348,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Anne's Episcopal Church ( Food Pantry)",
@@ -3837,18 +4361,22 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "St. Anthony of Padua Catholic Church",
-      "address": "St. Anthony of Padua Roman Catholic Church 3305 Glen Carlyn Rd Falls Church VA 22041",
+      "address": "3305 Glen Carlyn Rd Falls Church VA 22041",
       "phone": "(571) 471-3194",
       "hours": "Wednesday: 10:00:00 to 13:00:00, 10:00:00 to 14:00:00; Monday: 10:00:00 to 13:00:00",
       "appointment_needed": "No",
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Camillus Catholic Church",
@@ -3859,7 +4387,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Francis Xavier Church Food Pantry",
@@ -3870,7 +4400,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "St. John's Community Service Center",
@@ -3892,7 +4424,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "West African"
+      ]
     },
     {
       "name": "St. Jude Catholic Church",
@@ -3903,7 +4437,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Eastern European,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "St. Luke Church",
@@ -3925,7 +4461,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "St. Mark The Evangelist Catholic Church",
@@ -3936,7 +4474,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Martins Social Service",
@@ -3958,7 +4498,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Matthias Catholic Church",
@@ -3969,7 +4511,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "St. Michael and All Angels",
@@ -3980,7 +4524,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Paul UMC",
@@ -4002,7 +4548,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Paul's Lutheran Church",
@@ -4013,7 +4561,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East Asian,Eastern European,Latin American,West African"
+      ]
     },
     {
       "name": "St. Peters in the Woods",
@@ -4024,7 +4574,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Philip's Episcopal Church",
@@ -4035,7 +4587,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Stephen's Baptist Church",
@@ -4046,7 +4600,9 @@
       "requirements": "Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Stephen's UMC",
@@ -4057,11 +4613,13 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "St. Stephen's United Methodist Church",
-      "address": "St. Stephen's UMC 9203 Braddock Rd Burke VA 22015",
+      "address": "9203 Braddock Rd Burke VA 22015",
       "phone": "",
       "hours": "Friday: 17:00:00 to 18:00:00",
       "appointment_needed": "No",
@@ -4079,7 +4637,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Sterling United Methodist Church",
@@ -4090,7 +4650,9 @@
       "requirements": "Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Sydenstricker UMC",
@@ -4101,7 +4663,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "T&T Provider My Little World",
@@ -4116,7 +4680,7 @@
     },
     {
       "name": "THEARC Farm",
-      "address": "Attn: The ARC 1801 Mississippi Ave SE Washington DC DC 20020",
+      "address": "1801 Mississippi Ave SE Washington DC DC 20020",
       "phone": "",
       "hours": "Friday: 12:00:00 to 15:00:00",
       "appointment_needed": "No",
@@ -4156,7 +4720,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Cardinal Cupboard",
@@ -4189,7 +4755,9 @@
       "requirements": "ID,Income",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Gourmet Angel Food Bank",
@@ -4211,7 +4779,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Hope Center",
@@ -4233,7 +4803,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Lord's Chosen Food Pantry",
@@ -4244,7 +4816,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "The Redeemed Christian Church of God - Victory Temple",
@@ -4255,7 +4829,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Salvation Army - Sherman Ave",
@@ -4266,7 +4842,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Salvation Army - Solomon G Brown",
@@ -4277,7 +4855,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "The Sanctuary",
@@ -4288,7 +4868,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American"
+      ]
     },
     {
       "name": "The St. Lucy Project",
@@ -4299,7 +4881,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Upcounty Hub Inc",
@@ -4310,7 +4894,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "The Women's Collective",
@@ -4321,7 +4907,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "This Generation Ministries",
@@ -4332,7 +4920,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Thrive DC",
@@ -4343,7 +4933,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Tommy's Pantry",
@@ -4354,7 +4946,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "True Ground Housing",
@@ -4376,7 +4970,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Tutoring Cafe",
@@ -4387,11 +4983,13 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "United Community",
-      "address": "Ministries, INC. 7511 Fordson Rd Alexandria VA 22306",
+      "address": "7511 Fordson Rd Alexandria VA 22306",
       "phone": "",
       "hours": "Saturday: 08:00:00 to 11:00:00",
       "appointment_needed": "No",
@@ -4409,7 +5007,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "University of District of Columbia",
@@ -4431,7 +5031,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "University of Shady Grove",
@@ -4453,7 +5055,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Victory Christian Ministries International",
@@ -4464,7 +5068,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Victory Drug Center",
@@ -4475,7 +5081,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Villages of East River",
@@ -4497,7 +5105,9 @@
       "requirements": "ID,Income,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Walker Memorial Baptist Church",
@@ -4508,7 +5118,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,West African"
+      ]
     },
     {
       "name": "Walker Mill Community Development Center",
@@ -4519,7 +5131,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Ward 7 Food Center of Peace Lutheran Church",
@@ -4552,7 +5166,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Latin American,West African"
+      ]
     },
     {
       "name": "Washington View Apartments",
@@ -4574,7 +5190,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "WeSERVE CDC",
@@ -4585,7 +5203,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Wells Robertson House",
@@ -4596,7 +5216,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Whosoever Will Christian Church",
@@ -4607,7 +5229,9 @@
       "requirements": "ID,Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "William Ramsay Recreation Center",
@@ -4622,14 +5246,16 @@
     },
     {
       "name": "Willston Multicultural Center",
-      "address": "Comunidad 6131 Willston Dr Falls Church VA 22044",
+      "address": "6131 Willston Dr Falls Church VA 22044",
       "phone": "",
       "hours": "Saturday: 08:00:00 to 11:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Women Who Care Ministries",
@@ -4640,7 +5266,9 @@
       "requirements": "ID",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Central/South Asian,East African,East Asian,Eastern European,Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Woodbridge Church of the Nazarene",
@@ -4662,7 +5290,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Latin American,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Woodland Springs Apartment",
@@ -4673,7 +5303,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     },
     {
       "name": "Woodlawn United Methodist Church",
@@ -4684,18 +5316,22 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Eastern European,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Woodrow Wilson Library",
-      "address": "Legal Aid Justice Center, Culmore  6101 Knollwood Dr Falls Church VA 22041",
+      "address": "6101 Knollwood Dr Falls Church VA 22041",
       "phone": "",
       "hours": "Tuesday: 11:00:00 to 13:00:00",
       "appointment_needed": "No",
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,East Asian,Eastern European,Latin American"
+      ]
     },
     {
       "name": "YWCA National Capital Area",
@@ -4706,7 +5342,9 @@
       "requirements": "",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,Middle Eastern/ North African,West African"
+      ]
     },
     {
       "name": "Yad Yehuda of Greater Washington",
@@ -4717,11 +5355,13 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "Eastern European,Middle Eastern/ North African"
+      ]
     },
     {
       "name": "Zion Baptist Church (North Campus)",
-      "address": "Zion Baptist Church (NorthCampus) 11005 Dayton St Silver Spring MD 20902",
+      "address": "11005 Dayton St Silver Spring MD 20902",
       "phone": "",
       "hours": "Thursday: 12:00:00 to 15:00:00",
       "appointment_needed": "No",
@@ -4739,7 +5379,9 @@
       "requirements": "Zip Code",
       "distribution_model": "",
       "notes": "",
-      "cultures_served": []
+      "cultures_served": [
+        "East African,Latin American,West African"
+      ]
     }
   ]
 }

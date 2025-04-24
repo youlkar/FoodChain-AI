@@ -115,15 +115,15 @@ def process_hoo_data(hoo_df):
                 agency['hours'][day] = [time_slot]
 
 # Process cultures served data
-def process_cultures_data(cultures_df):
+def process_cultures_data(cultures_df, name_column='Agency Name'):
     for index, row in cultures_df.iterrows():
-        # Get agency name
-        agency_name = clean_text(row.get('Agency Name', ''))
+        # Get agency name (handle different column names)
+        agency_name = clean_text(row.get(name_column, ''))
         if not agency_name or agency_name not in agencies_by_name:
             continue
         
-        # Get cultures served
-        culture = clean_text(row.get('Cultures Served', ''))
+        # Get cultures served (handle different column names)
+        culture = clean_text(row.get('Cultural Populations Served', ''))
         if culture and culture not in agencies_by_name[agency_name]['cultures_served']:
             agencies_by_name[agency_name]['cultures_served'].append(culture)
 
@@ -134,8 +134,8 @@ process_hoo_data(shopping_hoo_df)
 
 # Process both cultures served dataframes
 print("Processing cultures served data...")
-process_cultures_data(markets_cultures_df)
-process_cultures_data(shopping_cultures_df)
+process_cultures_data(markets_cultures_df, 'Agency Name')
+process_cultures_data(shopping_cultures_df, 'Company Name')
 
 # Function to format hours in a user-friendly way
 def format_hours(hours_dict):
