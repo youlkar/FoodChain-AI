@@ -1,0 +1,22 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "findFood": "Find Food"
+    },
+    "welcome": {
+      "title": "Welcome to our website",
+      "description": "Explore our services and products"
+    },
+    "buttons": {
+      "login": "Log In",
+      "signup": "Sign Up",
+      "submit": "Submit"
+    },
+    "footer": {
+      "rights": "All rights reserved",
+      "privacy": "Privacy Policy"
+    },
+    "test": "test message"
+  }

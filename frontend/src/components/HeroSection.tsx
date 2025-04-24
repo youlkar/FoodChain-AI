@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Search, MapPin } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection: React.FC = () => {
   const [zipCode, setZipCode] = useState('');
   const navigate = useNavigate();
+  const {t} = useTranslation();
   
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,11 +31,11 @@ const HeroSection: React.FC = () => {
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          Find Food Resources<br />
-          <span className="text-green-200">In Your Community</span>
+          {t('heroSection.title1')}<br />
+          <span className="text-green-200">{t('heroSection.title2')}</span>
         </h1>
         <p className="mt-6 max-w-xl text-xl text-green-100">
-          Connecting people with food assistance programs, food banks, and community resources to help address food insecurity.
+          {t('heroSection.subTitle')}
         </p>
         <div className="mt-10 max-w-xl">
           <form onSubmit={handleSearch} className="bg-white p-3 rounded-lg shadow-lg flex flex-col sm:flex-row">

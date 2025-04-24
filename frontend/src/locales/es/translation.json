@@ -1,0 +1,23 @@
+{
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "findFood": "Encontrar Comida"
+    },
+    "welcome": {
+      "title": "Bienvenido a nuestro sitio web",
+      "description": "Explora nuestros servicios y productos"
+    },
+    "buttons": {
+      "login": "Iniciar Sesión",
+      "signup": "Registrarse",
+      "submit": "Enviar"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados",
+      "privacy": "Política de Privacidad"
+    },
+    "test": "testar messajia"
+
+  }

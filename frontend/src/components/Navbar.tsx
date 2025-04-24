@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Apple, LogIn, MapPin } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { user, googleSignIn, logout } = useAuth();
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleSignIn = () => {
     navigate('/login');
@@ -35,36 +38,37 @@ const Navbar: React.FC = () => {
                 to="/" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                Home
+              {t('nav.home')}
               </Link>
               <Link 
                 to="/resources" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
                 <MapPin className="h-4 w-4 mr-1" />
-                Find Food
+                {t('nav.findFood')}
               </Link>
               <Link 
                 to="/services" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                Services
+                {t('nav.services')}
               </Link>
               <Link 
                 to="/about" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                About
+                {t('nav.about')}
               </Link>
               <Link 
                 to="/community" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                Community
+                {t('nav.community')}
               </Link>
             </div>
           </div>
           <div className="hidden md:flex items-center">
+            <LanguageSwitcher />
             {user ? (
               <div className="flex items-center space-x-4">
                 <Link to="/profile" className="flex items-center">
@@ -96,7 +100,7 @@ const Navbar: React.FC = () => {
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
               >
                 <LogIn className="mr-2 h-4 w-4" />
-                Sign in
+                {t('nav.signIn')}
               </button>
             )}
           </div>
