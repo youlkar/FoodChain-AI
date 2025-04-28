@@ -12,7 +12,7 @@ const LoginPage: React.FC = () => {
   
   // Update document title
   React.useEffect(() => {
-    document.title = 'Sign In | FoodConnect';
+    document.title = 'Sign In | FoodChain AI';
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {

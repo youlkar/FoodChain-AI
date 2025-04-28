@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const CommunityPage: React.FC = () => {
   // Update document title
   React.useEffect(() => {
-    document.title = 'Community | FoodConnect';
+    document.title = 'Community | FoodChain AI';
   }, []);
 
   const {t} = useTranslation()
@@ -79,7 +79,7 @@ const CommunityPage: React.FC = () => {
     {
       id: 1,
       title: "From Struggle to Stability",
-      excerpt: "After losing my job, FoodConnect helped me find resources that kept my family fed while I got back on my feet...",
+      excerpt: "After losing my job, FoodChain AI helped me find resources that kept my family fed while I got back on my feet...",
       author: "Robert J.",
       image: "https://images.pexels.com/photos/6647035/pexels-photo-6647035.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1"
     },

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <Apple className="h-8 w-8 text-green-400" />
-              <span className="ml-2 text-xl font-bold">FoodConnect</span>
+              <span className="ml-2 text-xl font-bold">FoodChain AI</span>
             </div>
             <p className="text-gray-300">
               Connecting people in need with food resources in their community.
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-green-400" />
-                <span className="text-gray-300">help@foodconnect.org</span>
+                <span className="text-gray-300">help@foodchainai.org</span>
               </li>
             </ul>
             <div className="mt-4">
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-300">© 2025 FoodConnect. All rights reserved.</p>
+          <p className="text-gray-300">© 2025 FoodChain AI. All rights reserved.</p>
           <div className="flex mt-4 md:mt-0 space-x-6">
             <Link to="/privacy" className="text-gray-300 hover:text-white">Privacy Policy</Link>
             <Link to="/terms" className="text-gray-300 hover:text-white">Terms of Service</Link>

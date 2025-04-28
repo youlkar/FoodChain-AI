@@ -31,39 +31,39 @@ const Navbar: React.FC = () => {
           <div className="flex">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <Apple className="h-8 w-8 text-green-600" />
-              <span className="ml-2 text-xl font-bold text-green-700">FoodConnect</span>
+              <span className="ml-2 text-xl font-bold text-green-700">FoodChain AI</span>
             </Link>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
               <Link 
                 to="/" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-              {t('nav.home')}
+              {t('navbar.home')}
               </Link>
               <Link 
                 to="/resources" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
                 <MapPin className="h-4 w-4 mr-1" />
-                {t('nav.findFood')}
+                {t('navbar.findFood')}
               </Link>
               <Link 
                 to="/services" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                {t('nav.services')}
+                {t('navbar.services')}
               </Link>
               <Link 
                 to="/about" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                {t('nav.about')}
+                {t('navbar.about')}
               </Link>
               <Link 
                 to="/community" 
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-700 hover:text-green-600 hover:border-green-600"
               >
-                {t('nav.community')}
+                {t('navbar.community')}
               </Link>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
                   onClick={handleLogout}
                   className="text-sm font-medium text-gray-700 hover:text-green-600"
                 >
-                  Logout
+                  {t('navbar.logout')}
                 </button>
               </div>
             ) : (
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
               >
                 <LogIn className="mr-2 h-4 w-4" />
-                {t('nav.signIn')}
+                {t('navbar.signIn')}
               </button>
             )}
           </div>
@@ -128,7 +128,7 @@ const Navbar: React.FC = () => {
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
             >
-              Home
+              {t('navbar.home')}
             </Link>
             <Link
               to="/resources"
@@ -137,7 +137,7 @@ const Navbar: React.FC = () => {
             >
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-1" />
-                Find Food
+                {t('navbar.findFood')}
               </div>
             </Link>
             <Link
@@ -145,21 +145,21 @@ const Navbar: React.FC = () => {
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
             >
-              Services
+              {t('navbar.services')}
             </Link>
             <Link
               to="/about"
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
             >
-              About
+              {t('navbar.about')}
             </Link>
             <Link
               to="/community"
               className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               onClick={() => setIsOpen(false)}
             >
-              Community
+              {t('navbar.community')}
             </Link>
             {user ? (
               <>
@@ -168,7 +168,7 @@ const Navbar: React.FC = () => {
                   className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  Profile
+                  {t('navbar.profile')}
                 </Link>
                 <button
                   onClick={() => {
@@ -177,7 +177,7 @@ const Navbar: React.FC = () => {
                   }}
                   className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
                 >
-                  Logout
+                  {t('navbar.logout')}
                 </button>
               </>
             ) : (
@@ -188,7 +188,7 @@ const Navbar: React.FC = () => {
                 }}
                 className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 hover:border-green-600"
               >
-                Sign in
+                {t('navbar.signIn')}
               </button>
             )}
           </div>

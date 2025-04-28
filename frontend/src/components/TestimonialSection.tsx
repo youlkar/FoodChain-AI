@@ -11,7 +11,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: '1',
-    quote: "FoodConnect helped me find resources when I didn't know where to turn. As a single parent, knowing where to get help feeding my family has been life-changing.",
+    quote: "FoodChain AI helped me find resources when I didn't know where to turn. As a single parent, knowing where to get help feeding my family has been life-changing.",
     author: "Sarah L.",
     role: "Parent",
     image: "https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"

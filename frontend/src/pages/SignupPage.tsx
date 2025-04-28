@@ -14,7 +14,7 @@ const SignupPage: React.FC = () => {
   
   // Update document title
   React.useEffect(() => {
-    document.title = 'Sign Up | FoodConnect';
+    document.title = 'Sign Up | FoodChain AI';
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {

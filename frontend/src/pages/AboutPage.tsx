@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const AboutPage: React.FC = () => {
   // Update document title
   React.useEffect(() => {
-    document.title = 'About Us | FoodConnect';
+    document.title = 'About Us | FoodChain AI';
   }, []);
 
   const {t} = useTranslation();
@@ -16,11 +16,17 @@ const AboutPage: React.FC = () => {
       <div className="bg-green-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            {t('about.mission')}
+            {t('about.title')}
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-green-100">
             {t('about.missionText')}
           </p>
+          <a
+            href="#contact"
+            className="text-base font-medium text-green-600 hover:text-green-500"
+          >
+            {t('about.contactUs')} &rarr;
+          </a>
         </div>
       </div>
 
@@ -139,7 +145,7 @@ const AboutPage: React.FC = () => {
 
         <div className="mt-12 bg-gray-100 rounded-lg p-8">
           <blockquote className="italic text-gray-700 text-lg">
-            "FoodConnect has transformed how we connect with people in need. The platform has helped us reach 30% more families this year compared to last year."
+            "FoodChain AI has transformed how we connect with people in need. The platform has helped us reach 30% more families this year compared to last year."
           </blockquote>
           <div className="mt-4 font-medium text-gray-900">
             — Maria Rodriguez, Director of Community Food Bank
@@ -233,6 +239,33 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <dl className="space-y-10">
+        <div>
+          <dt className="text-lg leading-6 font-medium text-gray-900">
+            {t('about.mission')}
+          </dt>
+          <dd className="mt-2 text-base text-gray-500">
+            {t('about.missionText')}
+          </dd>
+        </div>
+        <div>
+          <dt className="text-lg leading-6 font-medium text-gray-900">
+            {t('about.story')}
+          </dt>
+          <dd className="mt-2 text-base text-gray-500">
+            {t('about.storyText')}
+          </dd>
+        </div>
+        <div>
+          <dt className="text-lg leading-6 font-medium text-gray-900">
+            {t('about.values')}
+          </dt>
+          <dd className="mt-2 text-base text-gray-500">
+            {t('about.valuesText')}
+          </dd>
+        </div>
+      </dl>
     </div>
   );
 };

@@ -41,7 +41,7 @@ const ProfilePage: React.FC = () => {
   
   // Update document title
   React.useEffect(() => {
-    document.title = 'Your Profile | FoodConnect';
+    document.title = 'Your Profile | FoodChain AI';
   }, []);
   
   // Get saved resources

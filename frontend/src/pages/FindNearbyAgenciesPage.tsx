@@ -116,7 +116,7 @@ const FindNearbyAgenciesPage: React.FC = () => {
 
   // Update the title
   useEffect(() => {
-    document.title = 'Find Food Resources | FoodConnect';
+    document.title = 'Find Food Resources | FoodChain AI';
   }, []);
 
   // Load agency data and check URL for initial location
@@ -441,7 +441,9 @@ const FindNearbyAgenciesPage: React.FC = () => {
     <div className="bg-gray-50 min-h-screen">
       <div className="pt-4 pb-6 px-4 sm:px-6 lg:px-8 bg-green-700 text-white">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl font-bold">{t('findAgencyPage.title')}</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-6">
+            {t('findFood.title')}
+          </h1>
           <p className="mt-2">{t('findAgencyPage.subTitle')}</p>
         </div>
       </div>
