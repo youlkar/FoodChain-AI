@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
               className="inline-flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
             >
               <Search className="h-5 w-5 mr-2" />
-              {t('nav.findFood')}
+              {t('navbar.findFood')}
             </button>
           </form>
           <p className="mt-3 text-sm text-green-200">

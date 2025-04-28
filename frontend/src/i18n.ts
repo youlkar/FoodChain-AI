@@ -17,6 +17,14 @@ const resources = {
         "profile": "Profile",
         "language": "Language"
       },
+
+      heroSection: {
+        title1: "Find Food Resources",
+        title2: "In Your Community",
+        privacyStmt: "No signup required to find resources. Your privacy matters to us.",
+        subTitle: "Connecting people with food assistance programs, food banks, and community resources to help address food insecurity",
+        zipCodePlaceHolder: "Enter your zip code"
+      },
       
       // Home Page
       "home": {
@@ -183,6 +191,14 @@ const resources = {
         "logout": "Cerrar Sesión",
         "profile": "Perfil",
         "language": "Idioma"
+      },
+
+      heroSection: {
+        title1: "Encontrar Recursos Alimentarios",
+        title2: "En Su Comunidad",
+        privacyStmt: "No se requiere registrarse para encontrar recursos. Su privacidad es importante para nosotros.",
+        subTitle: "Conectando a las personas con programas de asistencia alimentaria, bancos de alimentos y recursos comunitarios para ayudar a combatir la inseguridad alimentaria.",
+        zipCodePlaceHolder: "Ingrese su código postal"
       },
       
       // Home Page
